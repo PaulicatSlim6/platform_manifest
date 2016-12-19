@@ -11,7 +11,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Paulicat/android_build" remote="github" revision="mm6.0" >
+  <project path="build" name="PaulicatSlim6/android_build" remote="github" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -45,7 +45,7 @@
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" remote="github" revision="mm6.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/klimtwifi" name="Paulicat/android_device_samsung_klimtwifi" remote="github" revision="mm6.0" />
+  <project path="device/samsung/klimtwifi" name="PaulicatSlim6/android_device_samsung_klimtwifi" remote="github" revision="mm6.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -231,7 +231,7 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" />
-  <project path="external/sepolicy" name="Paulicat/android_external_sepolicy" remote="github" revision="mm6.0" />
+  <project path="external/sepolicy" name="PaulicatSlim6/android_external_sepolicy" remote="github" revision="mm6.0" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="SlimRoms/android_external_skia" remote="github" revision="mm6.0" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" />
@@ -267,7 +267,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="mm6.0" />
-  <project path="frameworks/base" name="Paulicat/frameworks_base" remote="github" revision="mm6.0" />
+  <project path="frameworks/base" name="PaulicatSlim6/frameworks_base" remote="github" revision="mm6.0" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -276,7 +276,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="Paulicat/frameworks_native" remote="github" revision="mm6.0" />
+  <project path="frameworks/native" name="PaulicatSlim6/frameworks_native" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="SlimRoms/frameworks_opt_bluetooth" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -295,7 +295,7 @@
   <project path="frameworks/opt/net/wifi" name="SlimRoms/frameworks_opt_net_wifi" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/slim" name="Paulicat/frameworks_opt_slim" remote="github" revision="mm6.0" />
+  <project path="frameworks/opt/slim" name="PaulicatSlim6/frameworks_opt_slim" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/telephony" name="SlimRoms/frameworks_opt_telephony" remote="github" revision="mm6.0" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
@@ -374,7 +374,7 @@
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/samsung" name="Paulicat/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung" name="PaulicatSlim6/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5420" name="exynos5420/android_hardware_samsung_slsi-cm_exynos5420" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="exynos5420/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
@@ -422,7 +422,7 @@
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" remote="github" revision="mm6.0" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/Settings" name="Paulicat/packages_apps_Settings" remote="github" revision="mm6.0" />
+  <project path="packages/apps/Settings" name="PaulicatSlim6/packages_apps_Settings" remote="github" revision="mm6.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" remote="github" revision="mm6.0" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
@@ -434,7 +434,7 @@
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" remote="github" revision="mm6.0" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="Paulicat/packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
+  <project path="packages/inputmethods/LatinIME" name="PaulicatSlim6/packages_inputmethods_LatinIME" remote="github" revision="mm6.0" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" groups="pdk-fs" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" groups="pdk-fs" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" groups="pdk-fs" />
@@ -515,7 +515,7 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="mm6.0" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="Paulicat/vendor_slim" remote="github" revision="mm6.0" />
+  <project path="vendor/slim" name="PaulicatSlim6/vendor_slim" remote="github" revision="mm6.0" />
 
   <!-- CAF repos -->
   <project path="vendor/qcom/opensource/display-frameworks" name="SlimRoms/vendor_qcom_opensource_display-frameworks" remote="github" revision="mm6.0" />
@@ -523,7 +523,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" remote="github" revision="mm6.0" />
   
   <!-- Samsung specific -->
-  <project path="vendor/samsung" name="Paulicat/proprietary_vendor_samsung" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung" name="PaulicatSlim6/proprietary_vendor_samsung" remote="github" revision="cm-13.0" />
   <project path="kernel/samsung/exynos5420" name="exynos5420/android_kernel_samsung_exynos5420" remote="github" revision="cm-13.0" />
 
   <!-- SlimLauncher -->
