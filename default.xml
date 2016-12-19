@@ -45,7 +45,7 @@
   <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="github" revision="mm6.0" />
   <project path="device/qcom/sepolicy" name="SlimRoms/device_qcom_sepolicy" remote="github" revision="mm6.0" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/klimtwifi" name="PaulicatSlim6/android_device_samsung_klimtwifi" remote="github" revision="mm6.0" />
+  <project path="device/samsung/klimtwifi" name="Paulicat/android_device_samsung_klimtwifi" remote="github" revision="mm6.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs,pdk-fs" />
@@ -374,7 +374,7 @@
   <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
-  <project path="hardware/samsung" name="PaulicatSlim6/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung" name="Paulicat/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5420" name="exynos5420/android_hardware_samsung_slsi-cm_exynos5420" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="exynos5420/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
@@ -523,7 +523,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="SlimRoms/vendor_qcom_opensource_dataservices" remote="github" revision="mm6.0" />
   
   <!-- Samsung specific -->
-  <project path="vendor/samsung" name="PaulicatSlim6/proprietary_vendor_samsung" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung" name="Paulicat/proprietary_vendor_samsung" remote="github" revision="cm-13.0" />
   <project path="kernel/samsung/exynos5420" name="exynos5420/android_kernel_samsung_exynos5420" remote="github" revision="cm-13.0" />
 
   <!-- SlimLauncher -->
