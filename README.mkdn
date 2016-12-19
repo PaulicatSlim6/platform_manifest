@@ -11,7 +11,7 @@ To get started with Slim6, you'll need to get familiar with
 To initialize your local repository using the Slim6 trees, use this command:
 
 
-	repo init -u git://github.com/Paulicat/platform_manifest.git -b mm6.0TabS
+	repo init -u git://github.com/PaulicatSlim6/platform_manifest.git -b mm6.0TabS
 
 
 
